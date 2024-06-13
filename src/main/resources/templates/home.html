@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<style>
+			.container {
+				margin: auto;
+				width: 50%;
+				padding: 30px;
+				background: #e2e2e2;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 data-th-text="${name}"></h1>
+			<p>Bike:</p>
+			<span data-th-text="${bike}"></span>
+			<p>Git Hub Repo: <span th:text="${github}"></span></p>
+			<a data-th-href="${github}">Click here to open</a>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex eaque amet nesciunt blanditiis praesentium cum temporibus hic natus earum fugiat? Molestiae autem ipsam itaque expedita ratione eaque perspiciatis fugit totam, nulla excepturi
+				repudiandae ea veniam reiciendis suscipit facere sit voluptatem doloremque blanditiis dignissimos, iste odit, dolorum at vel? Ut, veniam!
+			</p>
+		</div>
+	</body>
+</html>
